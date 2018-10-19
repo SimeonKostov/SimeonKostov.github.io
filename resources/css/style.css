@@ -1,0 +1,213 @@
+/* BASE COLORS
+#e1b12c
+--------------------------------------------- */
+
+/* BASIC STYLES */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+html {
+  background-color: #fff;
+}
+
+section {
+  padding: 60px 0;
+  font-weight: 100;
+}
+
+.col {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 160%;
+}
+
+h2::after {
+  display: block;
+  height: 2px;
+  background-color: #e1b12c;
+  content: " ";
+  width: 140px;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+label {
+  font-size: 80%;
+  font-weight: 600;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+ul li{
+  display: inline-block;
+}
+/* --------------------------------------------- */
+/* HEADER */
+header {
+  background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/header-background.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 650px;
+}
+
+nav {
+  padding: 20px 20px;
+}
+
+nav .row{
+  /* border: 1px solid red; */
+  justify-content: flex-end;
+}
+
+nav .row div {
+  /* border: 2px solid yellow; */
+  padding: 0 10px;
+  transition: transform 0.5s;
+}
+
+nav .row div:hover {
+  transform: scale(1.1);
+}
+
+nav .row a {
+  color: #fff;
+  font-weight: 100;
+  letter-spacing: 1.5px;
+  transition: color 0.5s;
+}
+
+nav .row a:hover, nav .row a:active {
+  text-decoration: none;
+  color: #e1b12c;
+}
+
+nav .row a:link, nav .row a:visited {
+  text-decoration: none;
+}
+nav ul{
+  list-style: none;
+}
+
+nav li{
+  display: inline-block;
+  margin: 0 10px;
+}
+
+header h1,h3,h4{
+  /* border: 1px solid red; */
+  color: #fff;
+}
+
+header h3{
+  margin-top: 180px;
+  padding-left: 20%;
+  font-weight: 300;
+  color: #e1b12c;
+}
+
+header h1{
+  padding-left: 30%;
+  font-weight: 400;
+}
+
+header h4{
+  padding-left: 40%;
+  font-weight: 300;
+}
+/* ------------------------------------- */
+
+/* ABOUT ME SECTION */
+.about-me-section .row {
+  justify-content: center;
+}
+
+.about-me-section .row .col-10 {
+  /* border: 2px solid red; */
+  text-align: center;
+}
+
+.about-me-section .container .row {
+  margin-top: 20px;
+}
+
+.about-me-p{
+  font-size: 90%;
+}
+/* ------------------------------------- */
+
+/* SKILLS */
+
+.education-section{
+  /* border: 1px solid red; */
+  background-color: #fafafa;
+}
+
+.education-section .container .row {
+  margin-top: 20px;
+}
+
+.skill-col i{
+  font-size: 400%;
+}
+/* ------------------------------------- */
+
+/* EXPERIENCE */
+.experience-section .row {
+  
+}
+
+.period {
+  text-align: center;
+}
+.period p{
+  margin: 0;
+  padding: 0;
+  background-color: #e1b12c;
+  font-size: 90%;
+}
+
+.project {
+  border-left: 2px solid #e1b12c;
+  text-align: left;
+}
+
+.project p {
+  font-size: 80%;
+  font-weight: 300;
+}
+/* ------------------------------------- */
+
+/* FOOTER */
+footer {
+  background-color: #292b2c;
+  height: 80px;
+}
+
+footer nav {
+  text-align: center;
+}
+
+footer nav ul a i{
+  color: #fff;
+  transition: font-size 0.2s;
+}
+
+footer nav ul a i:hover, footer nav ul a i:active{
+  font-size: 110%;
+}
